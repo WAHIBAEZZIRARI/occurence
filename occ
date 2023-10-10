@@ -1,0 +1,18 @@
+Algorithme ex39
+Variablesa
+Tableau T(50): entier
+i, n, x: entier
+Début
+Pour i <-- 0 à 49 pas 1 faire
+Ecrire ("Donner l'élément ", i+1,)
+Lire (T (i))
+fin Pour
+Ecrire ("Donner la valeur de n : ")
+Lire (n)
+Pour i <-- 0 à 49 pas 1 faire
+Si n = T(i) alors
+x <-- x+1
+fin Si
+fin Pour
+Ecrire ("Le nombre d'occurence de dans T n est: ", x )
+Fin
